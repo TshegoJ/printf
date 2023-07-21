@@ -4,8 +4,10 @@
 #include <stdio.h>
 #include <unistd.h>
 
+
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
+
 
 /* FLAGS */
 #define F_MINUS 1
@@ -17,6 +19,7 @@
 /* SIZES */
 #define S_LONG 2
 #define S_SHORT 1
+
 
 /**
  * struct fmt - Struct op
